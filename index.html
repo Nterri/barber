@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220224002042">
+   <title>Barber</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header id="header" class="header lock-padding">
+   <div class="header__container container">
+      <div class="header__logo"><img src="img/logo.svg" alt="logo"><span>arber</span></div>
+      <nav class="header__menu">
+         <ul class="header__items">
+            <li><a class="menu__link active" href="#" data-goto=".start__container">Home</a></li>
+            <li><a class="menu__link" href="#" data-goto=".history__body">History</a></li>
+            <li><a class="menu__link" href="#" data-goto=".service__container">Service</a></li>
+            <li><a class="menu__link" href="#" data-goto=".gallery__container">Gallary</a></li>
+         </ul>
+      </nav>
+      <div class="header__click">
+         <a href="#"><img src="img/log.svg" alt="log"></a>
+         <a class="notification" href="#"><img src="img/notification.svg" alt="notification"></a>
+         <button class="btn"><a href="#popup" class="popup-link">Appointment</a></button>
+      </div>
+      <div class="header__burger"><span></span></div>
+      <div id="popup" class="popup">
+         <div class="popup__body">
+            <div class="popup__content">
+               <a href="#" class="popup__close close-popup"></a>
+               <div class="popup__title title">Booking for a <span>haircut</span></div>
+               <div class="popup__text text">
+                  <table class="cal">
+                     <caption>
+                        <span class="prev"><a href="#">←</a></span>
+                        February 2022
+                        <span class="next"><a href="#">→</a></span>
+                     </caption>
+                     <thead>
+                        <tr>
+                           <th>Mon</th>
+                           <th>Tue</th>
+                           <th>Wed</th>
+                           <th>Thu</th>
+                           <th>Fri</th>
+                           <th>Sat</th>
+                           <th>Sun</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td class="off"><a href="#">31</a></td>
+                           <td class="click"><a href="#">1</a></td>
+                           <td class="click"><a href="#">2</a></td>
+                           <td class="click"><a href="#">3</a></td>
+                           <td class="click"><a href="#">4</a></td>
+                           <td class="click"><a href="#">5</a></td>
+                           <td class="click"><a href="#">6</a></td>
+                        </tr>
+                        <tr>
+                           <td class="click"><a href="#">7</a></td>
+                           <td class="click"><a href="#">8</a></td>
+                           <td class="click"><a href="#">9</a></td>
+                           <td class="click"><a href="#">10</a></td>
+                           <td class="click"><a href="#">11</a></td>
+                           <td class="click"><a href="#">12</a></td>
+                           <td class="click"><a href="#">13</a></td>
+                        </tr>
+                        <tr>
+                           <td class="click"><a href="#">14</a></td>
+                           <td class="click"><a href="#">15</a></td>
+                           <td class="click"><a href="#">16</a></td>
+                           <td class="click"><a href="#">17</a></td>
+                           <td class="click"><a href="#">18</a></td>
+                           <td class="click"><a href="#">19</a></td>
+                           <td class="click"><a href="#">20</a></td>
+                        </tr>
+                        <tr>
+                           <td class="click"><a href="#">21</a></td>
+                           <td class="click"><a href="#">22</a></td>
+                           <td class="click"><a href="#">23</a></td>
+                           <td class="click active"><a href="#">24</a></td>
+                           <td class="click"><a href="#">25</a></td>
+                           <td class="click"><a href="#">26</a></td>
+                           <td class="click"><a href="#">27</a></td>
+                        </tr>
+                        <tr>
+                           <td class="click"><a href="#">28</a></td>
+                           <td class="off"><a href="#">1</a></td>
+                           <td class="off"><a href="#">2</a></td>
+                           <td class="off"><a href="#">3</a></td>
+                           <td class="off"><a href="#">4</a></td>
+                           <td class="off"><a href="#">5</a></td>
+                           <td class="off"><a href="#">6</a></td>
+                        </tr>
+                        <tr>
+                           <td class="off"><a href="#">7</a></td>
+                           <td class="off"><a href="#">5</a></td>
+                           <td class="off"><a href="#">6</a></td>
+                           <td class="off"><a href="#">7</a></td>
+                           <td class="off"><a href="#">8</a></td>
+                           <td class="off"><a href="#">9</a></td>
+                           <td class="off"><a href="#">10</a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <div class="select text">You have chosen a date: <span class="your-select">23</span> February 2022</div>
+                  <button class="btn">Select</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+      <main>
+         <section class="start">
+            <div class="start__container container">
+               <div class="start__body item">
+                  <h3 class="title"><span>Hairstyle</span> Reflects The Personality Inside You</h3>
+                  <div class="text">
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at.</p>
+                  </div>
+                  <button class="btn">Get Started</button>
+               </div>
+               <div class="start__image"><picture><source srcset="img/image1.webp" type="image/webp"><img src="img/image1.png" alt="image1"></picture></div>
+            </div>
+         </section>
+         <section class="history">
+            <div class="history__container container">
+               <div class="history__image"><picture><source srcset="img/image2.webp" type="image/webp"><img src="img/image2.png" alt="image2"></picture></div>
+               <div class="history__body item">
+                  <h3 class="title">Our <span>History</span></h3>
+                  <div class="text">
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at.</p>
+                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at.</p>
+                  </div>
+                  <button class="btn">Learn more</button>
+               </div>
+            </div>
+         </section>
+         <section class="service">
+            <div class="service__container container">
+               <h3 class="title">Services We <br><span>Provide</span></h3>
+               <div class="service__body">
+                  <div class="service__item">
+                     <div class="service__image"><img src="img/item1.svg" alt="item1"></div>
+                     <h4 class="service__item-title">Hair Cut</h4>
+                     <div class="text">
+                        <p>long established fact that a reacted by the readable content of
+                           hen looking at.</p>
+                     </div>
+                  </div>
+                  <div class="service__item">
+                     <div class="service__image"><img src="img/item2.svg" alt="item2"></div>
+                     <h4 class="service__item-title">Beard Cut</h4>
+                     <div class="text">
+                        <p>long established fact that a reacted by the readable content of
+                           hen looking at.</p>
+                     </div>
+                  </div>
+                  <div class="service__item">
+                     <div class="service__image"><img src="img/item3.svg" alt="item3"></div>
+                     <h4 class="service__item-title">Facial Pack</h4>
+                     <div class="text">
+                        <p>long established fact that a reacted by the readable content of
+                           hen looking at.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="gallery">
+            <div class="gallery__container container">
+               <h3 class="title">Our <span>Gallery</span></h3>
+               <div class="gallery__body">
+                  <div class="gallery__item"><picture><source srcset="img/gallery1.webp" type="image/webp"><img src="img/gallery1.png" alt="gallery1"></picture></div>
+                  <div class="gallery__item"><picture><source srcset="img/gallery2.webp" type="image/webp"><img src="img/gallery2.png" alt="gallery2"></picture></div>
+                  <div class="gallery__item"><picture><source srcset="img/gallery3.webp" type="image/webp"><img src="img/gallery3.png" alt="gallery3"></picture></div>
+                  <div class="gallery__item"><picture><source srcset="img/gallery4.webp" type="image/webp"><img src="img/gallery4.png" alt="gallery4"></picture></div>
+                  <div class="gallery__item"><picture><source srcset="img/gallery5.webp" type="image/webp"><img src="img/gallery5.png" alt="gallery5"></picture></div>
+                  <div class="gallery__item"><picture><source srcset="img/gallery6.webp" type="image/webp"><img src="img/gallery6.png" alt="gallery6"></picture></div>
+               </div>
+               <button class="btn">View All</button>
+            </div>
+         </section>
+      </main>
+      <footer>
+   <div class="footer__container container">
+      <div class="footer__body">
+         <div class="footer__logo"><img src="img/logo.svg" alt="logo"><span>arber</span></div>
+         <div class="footer__text text">
+            <p>It is a long established fact that a reader will be <br> distracted by the readable </p>
+         </div>
+         <ul class="footer__items">
+            <li><a href="#"><img src="img/fb.svg" alt="fb"></a></li>
+            <li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+            <li><a href="#"><img src="img/google.svg" alt="google"></a></li>
+         </ul>
+      </div>
+   </div>
+</footer>
+   </div>
+   <script src="js/app.min.js?_v=20220224002042"></script>
+</body>
+
+</html>
