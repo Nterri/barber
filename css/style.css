@@ -93,6 +93,38 @@ h6 {
 
 /*--------------------*/
 
+::-webkit-scrollbar {
+  /* 1 - скроллбар */
+  width: 5px;
+}
+
+::-webkit-scrollbar-button {
+  /* 2 - кнопка */
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  /* 3 - трек */
+}
+
+::-webkit-scrollbar-track-piece {
+  /* 4 - видимая часть трека */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  /* 5 - ползунок */
+  background-color: #163561;
+}
+
+::-webkit-scrollbar-corner {
+  /* 6 - уголок */
+}
+
+::-webkit-resizer {
+  /* 7 - изменение размеров */
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
